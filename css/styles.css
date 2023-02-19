@@ -5,7 +5,8 @@
 }
 
 .body {
-    font-family: "Roboto", "sans-serif" ;
+    font-family: "Roboto", "sans-serif";
+    color: #2E2F42;
 }
 
 .list {
@@ -82,8 +83,8 @@
 
 }
 .contact-mail {
-    font-weight: 400;
     font-size: 16px;
+    font-style: normal;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--contact-color);
@@ -93,8 +94,8 @@
     color: var(--accent-color);
 }
 .contact-tel {
-    font-weight: 400;
     font-size: 16px;
+    font-style: normal;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--contact-color);
@@ -111,7 +112,6 @@
     background-color: var(--main-head-color);
 }
 .hero-head {
-    font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
@@ -120,6 +120,7 @@
     color: #FFFFFF;
 }
 .hero-btn {
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -127,8 +128,7 @@
     align-items: center;
     letter-spacing: 0.04em;
     cursor: pointer;
-
-/* color: #FFFFFF; */
+    color: #FFFFFF;
 }   
 
 .hero-btn:hover,
@@ -146,7 +146,6 @@
 }
 
 .main-text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -157,7 +156,6 @@
 /* What do we do */
 
 .main-head2 {
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -175,6 +173,7 @@
 .port-sec-item {
 }
 .sec-btn {
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -188,21 +187,15 @@
 
 .sec-btn:hover,
 .sec-btn:focus {
-    background: white;
-    color: #4D5AE5;
+    background: var(--accent-color);
+    color: #FFFFFF
 }
 
 /* /port-sec */
 
 /* sec2 */
 
-.section2 {
-}
-.section2-list {
-}
 
-.section2-item {
-}
 .section2-h {
     font-weight: 500;
     font-size: 20px;
@@ -211,7 +204,6 @@
     color: var(--main-head-color);
 }
 .section2-p {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -249,7 +241,6 @@
     color: #F4F4FD;
 }
 .footer-text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
