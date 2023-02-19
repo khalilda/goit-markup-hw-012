@@ -6,7 +6,7 @@
 
 .body {
     font-family: "Roboto", "sans-serif";
-    color: #2E2F42;
+    color: #434455;
 }
 
 .list {
@@ -73,12 +73,20 @@
     letter-spacing: 0.02em;
     color: var(--main-head-color);
 }
+
 .header-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--main-head-color);
 }
+
 .header-link:hover,
 .header-link:focus {
     color: var(--accent-color);
 }
+
 .contact {
 
 }
@@ -128,14 +136,15 @@
     align-items: center;
     letter-spacing: 0.04em;
     cursor: pointer;
+    background-color: var(--accent-color);
     color: #FFFFFF;
 }   
 
-.hero-btn:hover,
-.hero-btn:focus {
-    background: var(--accent-color);
-    color: #FFFFFF;
-}
+/* .hero-btn:hover, */
+/* .hero-btn:focus { */
+    /* background: var(--accent-color); */
+    /* color: #FFFFFF; */
+/* } */
 
 .main-head3 {
     font-weight: 500;
